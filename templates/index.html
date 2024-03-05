@@ -1,1 +1,81 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regular Expression Checker</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        #container {
+            text-align: center;
+        }
+        form {
+            background-color: #1f1f1f;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+            width: 400px;
+            text-align: center;
+            margin-top: 20px;
+        }
+        label {
+            display: block;
+            text-align: left;
+            margin-bottom: 10px;
+            font-size: 16px;
+            color: #4CAF50;
+        }
+        form input[type="text"] {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin-bottom: 20px;
+            border: none;
+            border-radius: 4px;
+            background-color: #3a3a3a;
+            color: #fff;
+            outline: none;
+        }
+        form button[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            background-color: #4CAF50;
+            color: #fff;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        form button[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1>Regular Expression Checker 👇</h1>
+        <form action="/" method="POST">
+            <label for="pattern">Enter The Pattern:</label>
+            <input type="text" id="pattern" name="pattern" placeholder="For example [ABC\123]...">
+            <label for="string">Enter The String:</label>
+            <input type="text" id="string" name="string" placeholder="Enter the text you want to check...">
+            <button type="submit">Check</button>
+        </form>
+        <h1>Mail ID Validator 📩</h1>
+        <form action="/validator" method="POST">
+            <label for="pattern">Enter The Mail ID:</label>
+            <input type="text" id="mail" name="mail" placeholder="For example abc@email.com ...">
+            <button type="submit">Validate...</button>
+        </form>
+    </div>
+</body>
+</html>
