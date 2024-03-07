@@ -42,7 +42,7 @@
    - Input the email ID to be validated into the provided form field.
    - Click on the submit button to validate the email ID.
 
-## Contributors
+## Author
 
 - [Vijay sada](https://github.com/vijaysada) 👨‍💻
 
