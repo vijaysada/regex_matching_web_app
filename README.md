@@ -1,4 +1,3 @@
-```markdown
 # Regex Clone Web App
 
 🚀 This Flask-based web application enables users to input a test string and a regular expression (regex) to discover all matching patterns. Additionally, it offers a functionality to validate the validity of provided email IDs. 📧
@@ -50,5 +49,4 @@
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
 ```
